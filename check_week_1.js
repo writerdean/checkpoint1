@@ -27,32 +27,37 @@
 
 // var phrase = 'Oh ' + captain + ', my ' + captain + '!'
 
-// JS Conditionals
+// // JS Conditionals
 
-var souls = 3;
-var lifeRafts = 2;
-// Write an if statement that console.logs "SOS!" if there are more souls than lifeRafts 
+// var souls = 3;
+// var lifeRafts = 2;
+// // Write an if statement that console.logs "SOS!" if there are more souls than lifeRafts 
 
-if (souls > lifeRafts) {
-    console.log('SOS!')
-}
+// if (souls > lifeRafts) {
+//     console.log('SOS!')
+// }
 
 // Data Structures - JS Arrays
 
 // Create an array named weekend with just 'Saturday' in it 
 
+var weekend = ['Saturday'];
 
 // Add 'Sunday' to the end of the weekend array 
 
+weekend.push('Sunday');
 
 // Add 'Friday' to the front to the front of the weekend array 
 
+weekend.unshift('Friday');
 
 // Access 'Saturday' in the array and assign to a variable named day 
 
+var day = weekend[1];
 
 // Remove 'Friday' from the array 
 
+weekend.shift();
 
 // Data Structures - JS Objects
 
