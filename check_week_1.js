@@ -37,44 +37,53 @@
 //     console.log('SOS!')
 // }
 
-// Data Structures - JS Arrays
+// // Data Structures - JS Arrays
 
-// Create an array named weekend with just 'Saturday' in it 
+// // Create an array named weekend with just 'Saturday' in it 
 
-var weekend = ['Saturday'];
+// var weekend = ['Saturday'];
 
-// Add 'Sunday' to the end of the weekend array 
+// // Add 'Sunday' to the end of the weekend array 
 
-weekend.push('Sunday');
+// weekend.push('Sunday');
 
-// Add 'Friday' to the front to the front of the weekend array 
+// // Add 'Friday' to the front to the front of the weekend array 
 
-weekend.unshift('Friday');
+// weekend.unshift('Friday');
 
-// Access 'Saturday' in the array and assign to a variable named day 
+// // Access 'Saturday' in the array and assign to a variable named day 
 
-var day = weekend[1];
+// var day = weekend[1];
 
-// Remove 'Friday' from the array 
+// // Remove 'Friday' from the array 
 
-weekend.shift();
+// weekend.shift();
 
 // Data Structures - JS Objects
 
 // Write an object literal named brain having a property of energyLevel with a value of 10 as a number 
 
+var brain = {
+    energyLevel: 10
+}
 
 // Assign the property of energyLevel to a variable named energy 
 
+var energy = brain.energyLevel;
 
 // Add a dream property to the brain object that holds the string 'electric sheep' 
 
+brain.dream = 'electric sheep'
 
 // Add a dayDream property to the brain object that holds the object { lunch: ['burger', 'beer'] } 
 
+brain.dayDream = {
+    lunch: ['burger', 'beer']
+}
 
 // Add another element pudding to the lunch array inside the brain object 
 
+brain.dayDream.lunch.push('pudding')
 
 // JS Functions
 
