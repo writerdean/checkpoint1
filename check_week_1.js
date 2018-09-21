@@ -18,22 +18,24 @@
 
 // rm -r vamps
 
-// JS Variables
+// // JS Variables
 
-// Assign the string "Jack" to a variable called captain 
-var captain = 'Jack'
+// // Assign the string "Jack" to a variable called captain 
+// var captain = 'Jack'
 
-// Using the captain variable, use string concatenation to form the string "Oh Jack, my Jack!", assigning it to a variable named phrase 
+// // Using the captain variable, use string concatenation to form the string "Oh Jack, my Jack!", assigning it to a variable named phrase 
 
-var phrase = 'Oh ' + captain + ', my ' + captain + '!'
+// var phrase = 'Oh ' + captain + ', my ' + captain + '!'
 
 // JS Conditionals
 
-// var souls = 3;
-// var lifeRafts = 2;
+var souls = 3;
+var lifeRafts = 2;
 // Write an if statement that console.logs "SOS!" if there are more souls than lifeRafts 
 
-
+if (souls > lifeRafts) {
+    console.log('SOS!')
+}
 
 // Data Structures - JS Arrays
 
