@@ -1,22 +1,22 @@
 // Week 1 Assessment
 
-// Bash (Terminal)
-// Assume your present working directory is $ ~/buffy
-// Make two directories inside ~/buffy: scoobies and vamps 
+// // Bash (Terminal)
+// // Assume your present working directory is $ ~/buffy
+// // Make two directories inside ~/buffy: scoobies and vamps 
 
-mkdir scoobies vamps
+// mkdir scoobies vamps
 
-// Make files in scoobies named buffy.txt, giles.txt and angel.txt 
+// // Make files in scoobies named buffy.txt, giles.txt and angel.txt 
 
-touch scoobies/buffy.txt scoobies/giles.txt scoobies/angel.txt
+// touch scoobies/buffy.txt scoobies/giles.txt scoobies/angel.txt
 
-// Copy angel.txt into the vamps directory 
+// // Copy angel.txt into the vamps directory 
 
-cp scoobies/angel.txt vamp/angel.txt
+// cp scoobies/angel.txt vamp/angel.txt
 
-// Delete the vamps directory and everything inside it 
+// // Delete the vamps directory and everything inside it 
 
-rm -r vamps
+// rm -r vamps
 
 // JS Variables
 
@@ -25,12 +25,15 @@ var captain = 'Jack'
 
 // Using the captain variable, use string concatenation to form the string "Oh Jack, my Jack!", assigning it to a variable named phrase 
 
+var phrase = 'Oh ' + captain + ', my ' + captain + '!'
 
 // JS Conditionals
 
 // var souls = 3;
 // var lifeRafts = 2;
 // Write an if statement that console.logs "SOS!" if there are more souls than lifeRafts 
+
+
 
 // Data Structures - JS Arrays
 
