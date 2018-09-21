@@ -59,35 +59,40 @@
 
 // weekend.shift();
 
-// Data Structures - JS Objects
+// // Data Structures - JS Objects
 
-// Write an object literal named brain having a property of energyLevel with a value of 10 as a number 
+// // Write an object literal named brain having a property of energyLevel with a value of 10 as a number 
 
-var brain = {
-    energyLevel: 10
-}
+// var brain = {
+//     energyLevel: 10
+// }
 
-// Assign the property of energyLevel to a variable named energy 
+// // Assign the property of energyLevel to a variable named energy 
 
-var energy = brain.energyLevel;
+// var energy = brain.energyLevel;
 
-// Add a dream property to the brain object that holds the string 'electric sheep' 
+// // Add a dream property to the brain object that holds the string 'electric sheep' 
 
-brain.dream = 'electric sheep'
+// brain.dream = 'electric sheep'
 
-// Add a dayDream property to the brain object that holds the object { lunch: ['burger', 'beer'] } 
+// // Add a dayDream property to the brain object that holds the object { lunch: ['burger', 'beer'] } 
 
-brain.dayDream = {
-    lunch: ['burger', 'beer']
-}
+// brain.dayDream = {
+//     lunch: ['burger', 'beer']
+// }
 
-// Add another element pudding to the lunch array inside the brain object 
+// // Add another element pudding to the lunch array inside the brain object 
 
-brain.dayDream.lunch.push('pudding')
+// brain.dayDream.lunch.push('pudding')
 
 // JS Functions
 
 // Write a function to return the area of a rectangle (the product of its length and its width) 
 
+function area(l, w) {
+    return l * w;
+}
 
 // Invoke the function with 3 and 4 as arguments and save it to a variable named result 
+
+var result = area(3, 4);
